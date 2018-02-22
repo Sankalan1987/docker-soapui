@@ -2,7 +2,7 @@ FROM edwxie/jdk
 MAINTAINER Edward Xie <edward.xie@leandev.se>
 
 #  Version
-ENV   	SOAPUI_VERSION	5.2.1
+ENV   	SOAPUI_VERSION	5.4.0
 
 # Download and unarchive Java
 RUN mkdir -p /opt &&\
